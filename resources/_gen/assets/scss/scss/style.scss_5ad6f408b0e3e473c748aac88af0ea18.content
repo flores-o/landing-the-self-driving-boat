@@ -5436,7 +5436,6 @@ ol {
 
 .header {
   color: #1c3ed3;
-  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -5613,7 +5612,7 @@ ol {
         font-weight: regular;
         text-transform: uppercase;
         text-decoration: none;
-        color: #1c3ed3; }
+        color: white; }
         .main-menu > ul > li > a:hover {
           background: #1c3ed3;
           color: #ffffff;
@@ -6007,7 +6006,7 @@ ul.social {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
-  background-color: #1c3ed3;
+  background-color: #555a71;
   height: 400px;
   position: relative;
   padding-top: 60px; }
