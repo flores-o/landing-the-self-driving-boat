@@ -19,6 +19,7 @@
 
 {{ partial "hero-image-fullscreen.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
 
+<!--
 {{ $headless := .Site.GetPage "/homepage" }}
 {{ $reusablePages := $headless.Resources.ByType "page" }}
 {{ $reusablePages := sort $reusablePages ".Params.weight" }}
@@ -35,7 +36,9 @@
   </div>
 </div>
 {{ end }}
+-->
 
+<!--
 {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
 {{if gt (len $services) 0}}
 <div class="container pt-8 pb-8 pb-md-14 pt-md-14">
@@ -54,7 +57,9 @@
   </div>
 </div>
 {{end}}
+-->
 
+<!--
 {{ range first 1 (after 1 $reusablePages) }}
 <div id="home" class="strip bg-primary bg-cover bg-position-top bg-overlay" style='background-image: url("{{ .Params.background | relURL }}");'>
   <div class="container pt-8 pb-8 pb-md-12 pt-md-12">
@@ -63,41 +68,13 @@
         <h2>{{ .Title }}</h2>
         <p>{{ .Content }}</p>
         <a class="button button-white" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
-
-       <!-- Button trigger modal -->
-       <!--
-       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-       -->
-
       </div>
     </div>
   </div>
 </div>
 {{ end }}
-
-
-<!-- Modal -->
-<!--
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 -->
+
 {{ end }}
 
 {{ define "footer_js" }}

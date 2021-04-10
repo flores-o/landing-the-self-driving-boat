@@ -19,31 +19,32 @@ theme = "hugo-hero-theme"
     meta_twitter_creator = "@zerostaticio"
 
 [[menu.main]]
-	name = "Services"
-	url = "/services/"
+    name = "Team"
+    url = "https://www.notion.so/Team-607878500eec483db78e22ebdabc4069"
     weight = 1
 
 [[menu.main]]
-    name = "Work"
-    url = "/work/"
+    name = "Roadmap"
+    url = "https://www.notion.so/theselfdrivingboat-com-70b42d3f9a3b420ba31ae7389ab783eb"
     weight = 2
 
+#[[menu.main]]
+#    name = "About"
+#    url = "/about/"
+#    weight = 3
+
+
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Early access"
+    url = "https://docs.google.com/forms/d/e/1FAIpQLScwhMI642d3eFRBcGVUeF6Qi7bJYeN_lZo1Xwj9NgZkakl0Tw/viewform"
     weight = 3
 
-
-[[menu.main]]
-    name = "History"
-    url = "/history/"
-    weight = 3
-
-[[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 4
+#[[menu.main]]
+#    name = "Contact"
+#    url = "/contact/"
+#    weight = 4
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
   pages = "/:filename/"
+
