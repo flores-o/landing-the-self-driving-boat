@@ -1,4 +1,4 @@
-baseURL = "selfdrivingboat.com"
+baseURL = ""
 languageCode = "en-us"
 title = "Hugo Hero Theme"
 themesDir = "themes"
