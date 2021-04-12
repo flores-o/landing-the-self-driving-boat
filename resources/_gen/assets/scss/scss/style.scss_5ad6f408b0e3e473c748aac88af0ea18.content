@@ -5428,6 +5428,7 @@ ol {
   list-style: none; }
 
 .page {
+  background: black;
   display: flex;
   min-height: 100vh;
   flex-direction: column; }
@@ -5745,7 +5746,7 @@ ul.social {
   .hamburger .hamburger-inner,
   .hamburger .hamburger-inner::before,
   .hamburger .hamburger-inner::after {
-    background: #1c3ed3; }
+    background: white; }
   .hamburger .hamburger-inner::after {
     width: 18px;
     right: 0; }
@@ -5756,7 +5757,7 @@ ul.social {
 .button {
   white-space: nowrap;
   display: inline-block;
-  padding: 7px 15px;
+  padding: 15px 20px;
   background: #1c3ed3;
   font-size: 15px;
   font-weight: 600;
@@ -5774,7 +5775,8 @@ ul.social {
 .button-white {
   background: none;
   color: #fff;
-  border: 2px solid #fff; }
+  border: 1px solid #fff;
+  padding: 15px 35px !important; }
 
 .title-1 {
   color: #1c3ed3;
@@ -6176,5 +6178,16 @@ ul.social {
   /* Masonry bricks or child elements */
   background-color: #eee;
   margin: 0 0 1em; }
+
+.webuild {
+  font-size: 5rem !important;
+  font-weight: 100 !important; }
+
+.boats {
+  font-size: 5rem !important;
+  font-weight: 900 !important; }
+
+body {
+  font-family: 'Josefin Sans', sans-serif !important; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
 .button {
   white-space: nowrap;
   display: inline-block;
-  padding: 7px 15px;
+  padding: 15px 20px;
   background: $primary;
   font-size: 15px;
   font-weight: 600;
@@ -20,5 +20,6 @@
 .button-white {
   background: none;
   color: #fff;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
+  padding: 15px 35px !important;
 }
