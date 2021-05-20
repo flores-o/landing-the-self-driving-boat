@@ -25,7 +25,7 @@ theme = "hugo-hero-theme"
 
 [[menu.main]]
     name = "Roadmap"
-    url = "https://www.notion.so/theselfdrivingboat-com-70b42d3f9a3b420ba31ae7389ab783eb"
+    url = "https://www.notion.so/Roadmap-8470329b6be54f21b7b637fc7bf501b5"
     weight = 2
 
 #[[menu.main]]
